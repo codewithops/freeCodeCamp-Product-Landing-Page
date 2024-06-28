@@ -1,0 +1,150 @@
+* {
+  padding: 1px;
+  background-color: #ffe7f2;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: right;
+  font-family: 'Aboreto', cursive;
+  }
+
+h1 {
+ font-family: 'Aboreto', cursive;
+ font-size: 5.3em;
+ color: #c72c48;
+}
+
+h3 {
+ font-family: 'Aboreto', cursive;
+ font-size: 2.3em;
+ color: #c72c48;
+}
+
+h4, h5 {
+ font-family: 'Aboreto', cursive;
+ font-size: 1.5em;
+ color: #c72c48;  
+}
+
+p {
+  background-color: white;
+  padding: 8px 8px;
+  border: 2px solid #c72c48;
+  width: 800px;
+  height: 88px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 12px;
+  font-weight: bold;
+  font-family: 'Aboreto', cursive;
+}
+
+li a:hover:not(.active) {
+  background-color: #C70039;
+  color: #FFFAF2;
+}
+
+.li a:active {
+  background-color: pink;
+}
+
+header-image {
+  height: 200px;
+  width: 200px;  
+}
+
+#video {
+  padding: 10px 2px;
+}
+
+#form {
+  margin: 10px;
+  padding: 2px 2px;
+}
+
+#email {
+  height: 24px;
+  width: 78%;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 2px solid #c72c48;
+}
+
+.container {
+  display: flex;
+  padding: 7px;
+  width: 1200px;
+  height: 500px;
+  border: 2px #c72c48 solid;
+}
+
+.container > div {
+  width: 600px;
+  height: 500px;
+}
+
+#ceo {
+  height: 400px;
+  width: 400px;
+  margin: 12px 1px 1px 1px;
+  border-radius: 40%;
+}
+
+#product {
+  height: 350px;
+  width: 350px;
+}
+
+#website {
+  font-family: 'Aboreto', cursive;
+  font-size: 18px;
+  color: #c72c48;
+}
+
+.button {
+  display: flex;
+  padding: 8px 8px;
+  margin: 1px 150px;
+  height: 24px;
+  width: 80px;
+  background: #ffffff;
+  text-align: center;
+  border: 2px solid #c72c48;
+}  
+
+
+  
+
+@media only screen and (orientation: landscape) {
+  header {
+    background-color: #ffe7f2;
+  }
+}
