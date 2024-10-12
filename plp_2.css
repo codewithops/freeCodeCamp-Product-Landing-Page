@@ -6,7 +6,13 @@
 
 header {
   display: flex;
-  padding: 20px;
+  padding: 10px;
+}
+
+#header-img {
+  padding: 30px 10px;
+  height: 25%;
+  width: 25%;
 }
 
 #nav-bar {
@@ -18,14 +24,15 @@ header {
   }
 
 h1 {
+ margin: 0px;
  font-family: 'Aboreto', cursive;
- font-size: 5.3em;
+ font-size: 6.7em;
  color: #c72c48;
 }
 
 h3 {
  font-family: 'Aboreto', cursive;
- font-size: 2.3em;
+ font-size: 4.3em;
  color: #c72c48;
 }
 
@@ -35,11 +42,17 @@ h4, h5 {
  color: #c72c48;  
 }
 
+h6 {
+ font-family: 'Aboreto', cursive;
+ font-size: 1.2em;
+ color: #c72c48;
+}
+
 p {
   background-color: white;
   padding: 8px 8px;
   border: 2px solid #c72c48;
-  width: 100%;
+  width: 70%;
   height: 88px;
 }
 
@@ -94,20 +107,30 @@ header-image {
   height: 24px;
   width: 78%;
   font-size: 16px;
+  font-family: sans-serif;
   box-sizing: border-box;
   border: 2px solid #c72c48;
 }
 
+#submit {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
 .container {
   display: flex;
-  padding: 7px;
-  width: 1200px;
-  height: 500px;
-  border: 2px #c72c48 solid;
+  background-color: #C70039;
 }
 
 .container > div {
-  width: 600px;
+  padding: 2px;
+  width: 100%;
   height: 500px;
 }
 
@@ -118,9 +141,13 @@ header-image {
   border-radius: 40%;
 }
 
+caption {
+ font-family: 'Aboreto', cursive;
+ color: #c72c48;
+}
 #product {
   height: 350px;
-  width: 350px;
+  width: 400px;
 }
 
 #website {
@@ -130,18 +157,41 @@ header-image {
 }
 
 .button {
-  display: flex;
-  padding: 8px 8px;
-  margin: 1px 150px;
-  height: 24px;
-  width: 80px;
+  display: block;
+  flex-wrap: wrap;
+  padding: 1px;
+  margin: 1px 30px;
   background: #ffffff;
   text-align: center;
+  color: #000;
+  text-decoration: none;
   border: 2px solid #c72c48;
 }  
 
+#more-info , #shop-now {
+ font-family: 'Aboreto', cursive;
+ color: #c72c48;  
+ text-decoration: none;
+}
 
+hr {
+    border-top: 2px solid #c72c48;
+}
+
+ .fa {
+  padding: 15px;
+  border-radius: 30%;
+  color: black;
+}
+
+.fa-brands {
+  padding: 15px;
+  border-radius: 30%;
+  color: black;
+}
   
+}
+
 
 @media only screen and (orientation: landscape) {
   header {
