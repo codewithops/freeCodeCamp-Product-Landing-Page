@@ -1,6 +1,7 @@
 * {
   padding: 1px;
   background-color: #ffe7f2;
+  background-color: white;
   font-family: sans-serif;
 }
 
@@ -10,9 +11,10 @@ header {
 }
 
 #header-img {
-  padding: 30px 10px;
-  height: 25%;
-  width: 25%;
+  padding: 15px 3px;
+  margin: 3px;
+  height: 3%;
+  width: 15%;
 }
 
 #nav-bar {
@@ -49,13 +51,16 @@ h6 {
 }
 
 p {
-  background-color: white;
   padding: 8px 8px;
   border: 2px solid #c72c48;
   width: 70%;
   height: 88px;
 }
 
+#about {
+  font-size: 1.2em;
+  border: none;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -126,6 +131,7 @@ header-image {
 .container {
   display: flex;
   background-color: #C70039;
+  width: 100%;
 }
 
 .container > div {
@@ -145,9 +151,10 @@ caption {
  font-family: 'Aboreto', cursive;
  color: #c72c48;
 }
+
 #product {
-  height: 350px;
-  width: 400px;
+  height: 343px;
+  width: 100%;
 }
 
 #website {
@@ -185,7 +192,7 @@ hr {
 }
 
 .fa-brands {
-  padding: 15px;
+  padding: 5px;
   border-radius: 30%;
   color: black;
 }
